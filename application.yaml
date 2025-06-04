@@ -1,0 +1,10 @@
+version 6.7:
+
+touch file1.txt
+<services> file2 web application </services>
+ls
+ngnix:
+restart : always
+port: 5050
+application: urlbase
+</system>
